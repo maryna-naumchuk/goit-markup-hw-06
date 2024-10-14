@@ -120,6 +120,8 @@ input {
 }
 
 /* #endregion Header */
+
+/* #region mobile menu */
 .mobile-menu {
     position: fixed;
     top: 0;
@@ -140,7 +142,13 @@ input {
  visibility: visible;
  pointer-events: auto;   
 }
-/* #region mobile menu */
+
+.mobile-menu-container {
+width: 320px;
+padding-left: 16px;
+padding-right: 16px;
+}
+
 
 /* #endregion mobile menu */
 
